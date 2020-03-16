@@ -315,8 +315,9 @@ public class PWHandler: NSObject,UICollectionViewDelegate,UICollectionViewDelega
         
         if (indexPath.row == 7 && paletNumber.count < 7) {
             cell.charLabel.text = "新能源\n牌填写"
+            cell.charLabel.numberOfLines = 0;
             cell.charLabel.textColor = UIColor.gray
-            cell.charLabel.font = UIFont.systemFont(ofSize: 10)
+            cell.charLabel.font = UIFont.systemFont(ofSize: 12)
         }
         
         if indexPath.row == selectIndex {

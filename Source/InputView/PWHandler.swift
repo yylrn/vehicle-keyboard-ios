@@ -313,7 +313,7 @@ public class PWHandler: NSObject,UICollectionViewDelegate,UICollectionViewDelega
         cell.charLabel.font = UIFont.systemFont(ofSize: textFontSize)
         cell.backgroundColor = itemColor
         
-        if (indexPath.row == 7 && paletNumber.count < 7) {
+        if (indexPath.row == 7 && paletNumber.count < 8) {
             
             cell.charLabel.numberOfLines = 0;
             cell.charLabel.textColor = UIColor.gray
